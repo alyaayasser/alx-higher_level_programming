@@ -3,4 +3,5 @@ for i in range(0, 10):
     for x in range(i, 10):
         if i < x:
             print("{:d}{:d}".format(i, x),
-                    end="\n" if i == 8 and x == 9 else", ")
+                    end="\n" if i == 8 and x == 9
+                    else ", ")
