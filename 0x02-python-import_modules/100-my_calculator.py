@@ -9,7 +9,7 @@ if _name_ == "_main_":
         b = int(sys.argv[3])
         op = sys.argv[2]
         if op == "+":
-            print("{} + {} + {}".format(a, b, add(a, b)))
+            print("{} + {} = {}".format(a, b, add(a, b)))
         elif op == "-":
             print("{} - {} = {}".format(a, b, sub(a, b)))
         elif op == "*":
